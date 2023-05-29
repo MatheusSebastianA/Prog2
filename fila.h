@@ -12,7 +12,7 @@ typedef struct node node_t;
 struct fila{    
     struct node *head; 
     struct node *tail;
-    int size;   
+    int size, max;   
 };
 typedef struct fila fila_t;
 
